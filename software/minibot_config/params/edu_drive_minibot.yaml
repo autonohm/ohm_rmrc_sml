@@ -1,0 +1,51 @@
+/**:
+  ros__parameters:
+    usingPowerManagementBoard: true
+    verbosity: false
+    canInterface: CAN2
+    frequencyScale: 32
+    inputWeight: 0.2
+    maxPulseWidth: 100
+    timeout: 300
+    kp: 0.8
+    ki: 75.0
+    kd: 0.0
+    antiWindup: 1
+    responseMode: 0
+    
+    controllers: 2
+    
+    controller0:
+      canID: 0
+      drive0:
+        channel: 0
+        gearRatio: 46.8
+        encoderRatio: 48.0
+        rpmMax: 100.0
+        invertEnc: 1
+        kinematics: [30.77, -30.77, -7.0] #front left
+      drive1:
+        channel: 1
+        gearRatio: 46.8
+        encoderRatio: 48.0
+        rpmMax: 100.0
+        invertEnc: 1
+        kinematics: [30.77, 30.77, -7.0] #rear left
+  
+    controller1:
+      canID: 1
+      drive0:
+        channel: 0
+        gearRatio: 46.8
+        encoderRatio: 48.0
+        rpmMax: 100.0
+        invertEnc: 1
+        kinematics: [-30.77, -30.77, -7.0] #front right
+      drive1:
+        channel: 1
+        gearRatio: 46.8
+        encoderRatio: 48.0
+        rpmMax: 100.0
+        invertEnc: 1
+        kinematics: [-30.77, 30.77, -7.0] # rear right
+        

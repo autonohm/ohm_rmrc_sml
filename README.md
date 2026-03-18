@@ -11,6 +11,17 @@ Both leagues follow the idea of open and shared knowledge. Designs, documentatio
   <br><em>Fig.: Robot prototype designed as demonstrator for the SML at the German Open 2026 in Cologne.</em>
 </p>
 
+# Documentation
+
+You will find the documentation for this projects on the [EduArt Website](https://docs.eduart-robotik.com/). There we have a detailed description of the assembly of the robot as well as the software setup steps to get you started for manual and autonomous driving.
+
+Here is a concept animation of the robot transporting a box
+[![Minibot Concept Video](https://i.ytimg.com/vi/HX2q9tXU8ds/maxresdefault.jpg)](https://youtu.be/HX2q9tXU8ds)
+
+
+
+
 # Project team
-* ...
 * Stefan May (supervisor)
+* Michael Maltsev (Hardware Design)
+* Viktor Petrenko (Animation, Software Setup)
